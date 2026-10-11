@@ -1,0 +1,64 @@
+## ==========================================
+## Visual Studio ve Derleme Çıktıları
+## ==========================================
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+bld/
+[Bb]uild/
+
+## ==========================================
+## Visual Studio Kullanıcı Ayarları ve Önbellek
+## ==========================================
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.userprefs
+*.dbmdl
+*.opendb
+
+## ==========================================
+## .NET / C# Paket ve Yayınlama Çıktıları
+## ==========================================
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+publish/
+
+## ==========================================
+## Test ve Analiz Raporları
+## ==========================================
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+.vs-coverage/
+
+## ==========================================
+## İşletim Sistemi Geçici Dosyaları
+## ==========================================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+## ==========================================
+## Büyük Boyutlu Ses Dosyaları (İsteğe Bağlı)
+## ==========================================
+# GitHub'ın 100 MB tekil dosya limiti vardır. 
+# Eğer indirdiğin devasa WAV paketlerini Git geçmişine gömmek istemiyorsan
+# aşağıdaki satırların başındaki '#' işaretini kaldırabilirsin:
+# *.wav
+# *.mp3
